@@ -57,7 +57,7 @@ void draw()
     if ( PuntoMarcado != null )
         PuntoMarcado.Color = ColorPuntoMarcado;
     for (Punto n : Puntos)
-        n.Dibujar(); //<>//
+        n.Dibujar(); 
         
     if ( Puntos.size() > 1 ) {
         Regresion();
